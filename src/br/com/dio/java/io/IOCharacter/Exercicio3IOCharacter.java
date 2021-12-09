@@ -54,7 +54,8 @@ public class Exercicio3IOCharacter {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         // Abrindo o prompt para receber a entrada
         String line = br.readLine();
-        // Preparando o arquivo para receber a entrada. (O atributo append: "true" informa que a linha deve ser adicionada sem sobrescrever o arquivo).
+        // Preparando o arquivo para receber a entrada.
+        // (O atributo append: "true" informa que a linha deve ser adicionada sem sobrescrever o arquivo).
         BufferedWriter bw = new BufferedWriter(new FileWriter(arquivo, true));
 
         // Escrevendo no arquivo, linha a linha
